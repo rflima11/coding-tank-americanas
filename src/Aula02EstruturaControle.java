@@ -23,6 +23,8 @@ public class Aula02EstruturaControle {
 //
 //        System.out.println(mensagem);
 
+
+
         System.out.println("Informe o dia da semana: ");
         Scanner scan = new Scanner(System.in);
 

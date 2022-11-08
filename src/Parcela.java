@@ -1,36 +1,22 @@
 public class Parcela {
 
-
-    /*
-     Uma cliente pegou um empréstimo em um banco no valor de R$20,000
-     Parcela >= R$1000
-     */
     public static void main(String[] args) {
 
-        double valorTotal = 20000.00;
-        double valorParcela;
-//        for(int parcela = 1; parcela <= valorTotal; parcela++) {
-//            valorParcela = valorTotal / parcela;
-//
-//            if (valorParcela < 1000) {
-//                break;
-//            }
-//
-//            System.out.println(parcela + " parcelas no valor R$" + valorParcela);
-//
-//
-//        }
-
-        for(int i = 1; i <= 10; i++) {
-
-            if (i == 5) {
-                continue;
+        int input = 5;
+        StringBuilder sb = new StringBuilder();
+        for(int linhas = input; linhas > 0; linhas--) {
+            for (int j = 0; j < input; j++) {
+                sb.append("*");
             }
-            System.out.println(i);
+            sb.append("\n");
+            int divisor = 1;
+            if (linhas < input && linhas != 1) {
+                System.out.println("dentro do if");
+            }
+
+
         }
+        System.out.println(sb);
 
     }
-
-
-
 }

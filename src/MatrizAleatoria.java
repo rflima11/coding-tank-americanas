@@ -26,8 +26,8 @@ public class MatrizAleatoria {
 
         for(int linha = 0; linha < matriz.length; linha++) {
             for(int coluna = 0; coluna < matriz[linha].length; coluna++) {
-//              matriz[linha][coluna] = random.nextInt(9) ;
-                matriz[linha][coluna] = (int) (Math.random() * 9) + 1;
+              matriz[linha][coluna] = random.nextInt(9) ;
+//                matriz[linha][coluna] = (int) (Math.random() * 9) + 1;
                 System.out.print(matriz[linha][coluna] + " ");
             }
             System.out.print("\n");
